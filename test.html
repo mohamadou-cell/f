@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="forme.css">
+        <script defer type="text/javascript" src="events.js"></script>
+    </head>
+    <body>
+        <div>
+            <img src="ord.jpeg">
+        </div>
+        <h1> Mon premier TP: Mohamadou FALL</h1>
+        <div id="p">
+            <div class="a">
+                <p class="b">bloc 1</p>
+            </div>
+            <div class="a">
+                <p class="b">bloc 2</p>
+            </div>
+            <div class="a">
+                <p class="b">bloc 3</p>
+            </div>
+            <div class="a">
+                <p class="b">bloc 4</p>
+            </div>
+        </div>
+        <div class="class_bouton">
+            <button id="bouton" onclick="couleur();">Clic</button>
+        </div>
+        <div class="form">
+            <div class="box">
+                <form action="#" autocomplete="on" id="form" method="post">
+                    <input type="text" id="prenom" required placeholder="Prenom"><br>
+                    <input type="text" id="nom" required placeholder="Nom"><br>
+                    <input type="email" id="email" required placeholder="Adresse mail"><br>
+                    <textarea name="message" rows="8" cols="35" placeholder="votre message..." id="com"></textarea><br>
+                    <input type="button" value="Envoyer" id="envoyer" onclick="afficher()">
+                </form>
+            </div>
+            <div class="affiche">
+                <p class="bloc">Prénom:   <span id="p1"></span></p><br>
+                <p class="bloc">Nom:   <span id="p2"></span></p><br>
+                <p class="bloc">Email:   <span id="p3"></span></p><br>
+                <p class="bloc">Commentaire:   <span id="p4"></span></p>
+            </div>
+        </div>
+        
+         
+    </body>
+</html>
