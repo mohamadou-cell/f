@@ -72,6 +72,10 @@ form
     padding: 30px;
     background-color: gray;
 }
+label{
+    font-size: 30px;
+    color: white;
+}
 #prenom, #nom, #email
 {
     margin:-15px;
